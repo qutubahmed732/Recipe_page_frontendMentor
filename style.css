@@ -34,7 +34,7 @@ img {
     border-radius: 15px;
 }
 
-main>*:not(h1, h2, h3, h4, h5) {
+main>*:not(h1, h2, h3, h4, h5, .divider) {
     padding-block: 20px;
 }
 
@@ -85,7 +85,7 @@ img {
 }
 
 .timing {
-    /* border: 1px solid black; */
+    margin-bottom: 30px;
     padding-left: 20px;
     background-color: #FFF8FC;
     border-radius: 10px;
@@ -105,7 +105,12 @@ table {
 td {
     padding: 10px 0px 10px 0px;
     border-bottom: 2px solid #767270;
-    
+}
+
+.divider {
+    width: 95%;
+    border: 1px solid #767270;
+    margin-block: 20px;
 }
 
 .color {
