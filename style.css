@@ -112,7 +112,7 @@ td {
     color: #6F402D;
 }
 
-@media (width <= 650px) {
+@media (max-width: 650px) {
     main {
         width: 100%;
         margin: 0;
